@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "_id": "dress1",
+      "title": "Dress 1",
+      "price": 19,
+      "description": "this dress is the best",
+      "availableSizes": ["X", "L", "XL", "XXL"]
+    },
+    {
+      "_id": "dress2",
+      "title": "Dress 2",
+      "price": 349,
+      "description": "this dress is the best",
+      "availableSizes": ["X", "L", "XL", "XXL"]
+    },
+    {
+      "_id": "dress3",
+      "title": "Dress 3",
+      "price": 9,
+      "description": "this dress is the best",
+      "availableSizes": ["X", "L", "XL", "XXL"]
+    },
+    {
+      "_id": "dress4",
+      "title": "Dress 4",
+      "price": 193,
+      "description": "this dress is the best",
+      "availableSizes": ["X", "L", "XL", "XXL"]
+    }
+  ]
+}
