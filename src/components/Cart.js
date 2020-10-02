@@ -36,7 +36,7 @@ class Cart extends Component {
           </div>
           {cartItems.length !== 0 && (
             <div className="cart">
-              <div classname="total">
+              <div className="total">
                 <div>
                   Total:{" "}
                   {formatCurrency(
