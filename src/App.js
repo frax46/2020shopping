@@ -17,6 +17,9 @@ class App extends Component {
       sort: "",
     };
   }
+  createOrder = (order) => {
+    console.log(order);
+  };
   removeFromCart = (product) => {
     const cartItems = this.state.cartItems.slice();
     this.setState({
@@ -104,6 +107,7 @@ class App extends Component {
               <Cart
                 cartItems={this.state.cartItems}
                 removeFromCart={this.removeFromCart}
+                createOrder={this.createOrder}
               />
             </div>
           </div>
